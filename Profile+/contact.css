@@ -5,7 +5,11 @@
     max-width: 1000px;
     margin: 60px auto;
     padding: 0 20px;
+<<<<<<< HEAD
     flex-wrap: wrap; 
+=======
+    flex-wrap: wrap;
+>>>>>>> 7244b96aa71e948c891d54b85d056c3c0082361e
 }
 
 /* Contact Form Container */
@@ -76,11 +80,15 @@
     transform: translateY(-2px);
 }
 
+<<<<<<< HEAD
 /* Contact Info Box*/
+=======
+/* Contact Info Box */
+>>>>>>> 7244b96aa71e948c891d54b85d056c3c0082361e
 .contact-info {
     flex: 1;
     padding: 30px;
-    background-color: #82868a; /* Light, professional background */
+    background-color: #82868a;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     display: flex;
@@ -121,7 +129,7 @@
     .contact-form,
     .contact-info {
         padding: 20px;
-        width: 100%; /* make full width on mobile */
+        width: 100%;
         margin-bottom: 20px;
     }
 }

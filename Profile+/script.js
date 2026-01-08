@@ -25,7 +25,11 @@ function downloadPDF() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
+<<<<<<< HEAD
     // to get input values from users
+=======
+    // to get input from users
+>>>>>>> 7244b96aa71e948c891d54b85d056c3c0082361e
     const name = document.getElementById("name").value || "John Williams";
     const title = document.getElementById("title").value || "Software Engineer";
     const email = document.getElementById("email").value || "john.williams@mail.uk";
